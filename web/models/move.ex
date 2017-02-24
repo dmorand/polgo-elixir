@@ -13,7 +13,8 @@ defmodule Polgo.Move do
   def black(x, y), do: move(x, y, @black)
 
   defp move(x, y, color)
-  when x >= 0 and x < @board_size and y >= 0 and y < @board_size do
+  when x >= 0 and x < @board_size and
+       y >= 0 and y < @board_size do
     %Move{x: x, y: y, color: color, time: DateTime.utc_now}
   end
 

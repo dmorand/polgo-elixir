@@ -2,8 +2,6 @@ defmodule Polgo.MoveTest do
   use ExUnit.Case, async: true
 
   alias Polgo.Move
-
-     # The "test" macro is imported by ExUnit.Case
      test "white" do
        white = Move.white(0, 1)
        assert white.x == 0

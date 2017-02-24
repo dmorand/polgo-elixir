@@ -1,0 +1,5 @@
+<div id="board">
+  <%= for row_index <- 0..7 do %>
+    <%= render "row.html", odd: Integer.is_odd(row_index), even: Integer.is_even(row_index) %>
+  <%= end %>
+</div>

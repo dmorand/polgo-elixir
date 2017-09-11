@@ -2,11 +2,10 @@
 
 [![Build Status](https://travis-ci.org/dmorand/polgo-elixir.svg?branch=master)](https://travis-ci.org/dmorand/polgo-elixir)
 
-To start your Phoenix app:
+To start your Phoenix server:
 
   * Install dependencies with `mix deps.get`
-  * Install Node.js dependencies with `npm install`
-  * Start Phoenix endpoint with `mix phoenix.server`
+  * Start Phoenix endpoint with `mix phx.server`
 
 Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
 

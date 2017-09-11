@@ -1,0 +1,17 @@
+<div class="row">
+  <%= if @even do %>
+   <div class="bl"></div>
+  <% end %>
+
+  <div class="wh"></div>
+  <div class="bl"></div>
+  <div class="wh"></div>
+  <div class="bl"></div>
+  <div class="wh"></div>
+  <div class="bl"></div>
+  <div class="wh"></div>
+
+  <%= if @odd do %>
+   <div class="bl"></div>
+  <% end %>
+</div>

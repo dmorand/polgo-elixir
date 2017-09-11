@@ -6,10 +6,10 @@
 use Mix.Config
 
 # Configures the endpoint
-config :polgo, Polgo.Endpoint,
+config :polgo, PolgoWeb.Endpoint,
   url: [host: "localhost"],
-  secret_key_base: "R0pBfqP3+fBm8i+SQJyE+aUMu6rroMaecCctSHHPXNs7nVVSOlLWO0wBPDq35nWy",
-  render_errors: [view: Polgo.ErrorView, accepts: ~w(html json)],
+  secret_key_base: "roE/MfMYf/U9koykf6TF+/pgFJUpsrhqkZ9LIZC7HYmuabkelhC2lBNA+sT6buI2",
+  render_errors: [view: PolgoWeb.ErrorView, accepts: ~w(html json)],
   pubsub: [name: Polgo.PubSub,
            adapter: Phoenix.PubSub.PG2]
 
